@@ -504,6 +504,9 @@ input:focus,select:focus{border-color:var(--saffron);box-shadow:0 0 0 3px rgba(2
 <div class="toast" id="toast"></div>
 
 <script>
+const CONFIG = {
+    API_BASE: "https://sattva-ai.onrender.com/"
+};
 const SUPABASE_URL='https://onlvifpuvxiqaedttncd.supabase.co';
 const SUPABASE_ANON_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ubHZpZnB1dnhpcWFlZHR0bmNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ0MTI1NDMsImV4cCI6MjA4OTk4ODU0M30.8YQVh8qiLmHrIM1Dfx_UIGr3-IE6iPzSoKi2w7lW--s';
 var supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
@@ -514,7 +517,7 @@ var supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     flowType: 'implicit'
   }
 });
-const API = 'http://127.0.0.1:8000';
+const API = 'https://sattva-ai.onrender.com/';
 
 const S = {
   bmi:null, tdee:null, bmr:null, calorieGoal:2000,
@@ -671,7 +674,7 @@ function updatePreview(){
 async function saveMealToBackend(entry) {
   if (!currentSession) return;
   try {
-    const resp = await fetch('http://127.0.0.1:8000/meals/log', {
+    const resp = await fetch('https://sattva-ai.onrender.com/meals/log', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -955,7 +958,7 @@ async function quickChat(message) {
 
   // 3. Performance Mode: Call your FastAPI Backend
   try {
-    const response = await fetch("http://127.0.0.1:8000/chat", {
+    const response = await fetch("https://sattva-ai.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
@@ -1086,7 +1089,7 @@ async function saveBMIToBackend(w, h, a, g, act, goal) {
   if (!currentSession) { console.log('No session, skipping'); return; }
   
   try {
-    const resp = await fetch('http://127.0.0.1:8000/bmi/calculate', {
+    const resp = await fetch('https://sattva-ai.onrender.com/bmi/calculate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
