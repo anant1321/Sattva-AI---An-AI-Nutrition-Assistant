@@ -1,0 +1,51 @@
+id,food_name,category,calories_per_100g,protein_g_per_100g,carbs_g_per_100g,fats_g_per_100g,fiber_g_per_100g,sugar_g_per_100g,sodium_mg_per_100g,source,region,is_vegetarian,is_vegan
+1,Roti (Chapati),Bread & Grains,297,8.6,60.8,3.7,7.8,1.2,246,IFCT,North India,true,true
+2,Roti (Thin / Phulka),Bread & Grains,264,7.9,54.3,1.5,5.2,1.0,190,IFCT,North India,true,true
+3,Rice (Cooked White),Bread & Grains,130,2.7,28.2,0.3,0.4,0.1,1,IFCT,Pan-India,true,true
+4,Rice (Cooked Brown),Bread & Grains,123,2.7,25.6,0.9,1.8,0.4,5,USDA,Pan-India,true,true
+5,Dal Tadka (Yellow Lentil),Lentils & Legumes,116,7.6,16.3,2.8,4.1,1.8,320,IFCT,North India,true,true
+6,Dal Makhani,Lentils & Legumes,145,7.2,18.4,5.1,5.8,2.1,410,IFCT,North India,true,false
+7,Rajma (Red Kidney Bean Curry),Lentils & Legumes,127,8.4,19.8,2.3,6.4,1.4,380,IFCT,North India,true,true
+8,Chole (Chickpea Curry),Lentils & Legumes,134,7.3,20.1,3.6,6.2,2.8,405,IFCT,North India,true,true
+9,Paneer (Fresh Cottage Cheese),Dairy,265,18.3,1.2,20.8,0.0,1.0,14,IFCT,Pan-India,true,false
+10,Paneer Butter Masala,Curry,183,9.1,8.4,13.2,1.4,3.6,480,IFCT,North India,true,false
+11,Chicken Curry (Bone-in),Meat & Poultry,178,18.7,5.6,9.2,1.2,2.4,520,IFCT,Pan-India,false,false
+12,Chicken Tikka Masala,Meat & Poultry,165,17.4,6.2,8.4,1.0,2.8,580,IFCT,North India,false,false
+13,Butter Chicken (Murgh Makhani),Meat & Poultry,181,19.2,7.1,9.4,0.8,3.2,510,IFCT,North India,false,false
+14,Fish Curry (Generic Indian),Meat & Poultry,142,16.8,4.3,6.9,0.6,1.4,540,IFCT,Coastal India,false,false
+15,Egg Bhurji (Scrambled Masala Egg),Eggs,172,11.8,3.4,12.6,0.4,1.2,380,IFCT,Pan-India,true,false
+16,Idli (Plain Steamed),South Indian,39,2.0,7.9,0.2,0.5,0.4,108,IFCT,South India,true,true
+17,Dosa (Plain),South Indian,168,3.9,26.6,5.5,0.8,0.6,210,IFCT,South India,true,false
+18,Masala Dosa,South Indian,196,4.2,30.1,7.1,1.4,0.8,290,IFCT,South India,true,false
+19,Sambar,South Indian,45,2.1,7.1,1.1,2.3,2.0,430,IFCT,South India,true,true
+20,Upma,South Indian,161,3.8,26.4,5.0,1.8,0.6,290,IFCT,South India,true,false
+21,Poha (Flattened Rice),Breakfast,179,3.2,34.8,4.2,1.4,0.8,210,IFCT,Central India,true,false
+22,Paratha (Plain Butter),Bread & Grains,326,6.8,44.2,13.6,3.4,1.2,380,IFCT,North India,true,false
+23,Aloo Paratha,Bread & Grains,280,5.8,38.4,11.2,3.1,0.9,356,IFCT,North India,true,false
+24,Puri,Bread & Grains,362,7.1,49.8,15.4,2.8,0.8,260,IFCT,North India,true,true
+25,Biryani (Vegetable),Rice Dishes,168,4.2,28.6,4.8,1.8,1.6,420,IFCT,Pan-India,true,false
+26,Biryani (Chicken),Rice Dishes,184,9.4,24.8,5.3,1.2,1.4,510,IFCT,Pan-India,false,false
+27,Pulao (Veg Jeera Rice),Rice Dishes,149,3.1,28.4,3.2,1.2,0.8,280,IFCT,Pan-India,true,false
+28,Aloo Sabzi (Potato Curry),Vegetables,112,2.1,18.4,3.6,2.8,2.2,310,IFCT,Pan-India,true,true
+29,Palak Paneer,Vegetables,165,9.6,6.2,11.4,2.4,2.0,380,IFCT,North India,true,false
+30,Mixed Vegetable Curry,Vegetables,89,2.4,11.8,3.8,3.2,3.4,340,IFCT,Pan-India,true,true
+31,Gulab Jamun,Sweets & Desserts,385,6.4,60.2,14.1,0.2,42.8,180,IFCT,Pan-India,true,false
+32,Kheer (Rice Pudding),Sweets & Desserts,142,4.2,22.8,4.6,0.2,18.4,60,IFCT,Pan-India,true,false
+33,Rasgulla,Sweets & Desserts,186,6.8,32.4,3.8,0.0,30.2,40,IFCT,East India,true,false
+34,Halwa (Sooji),Sweets & Desserts,323,4.8,50.4,11.6,0.6,22.8,120,IFCT,Pan-India,true,false
+35,Lassi (Sweet),Beverages,98,3.8,16.2,2.4,0.0,14.8,65,IFCT,North India,true,false
+36,Chai (Milk Tea with Sugar),Beverages,44,1.8,6.2,1.4,0.0,5.8,30,IFCT,Pan-India,true,false
+37,Nimbu Pani (Lemon Water w/ Sugar),Beverages,24,0.2,6.2,0.0,0.0,6.0,120,IFCT,Pan-India,true,true
+38,Chicken Breast (Cooked Boneless),Meat & Poultry,165,31.0,0.0,3.6,0.0,0.0,74,USDA,Global,false,false
+39,Egg (Whole Boiled),Eggs,155,13.0,1.1,11.0,0.0,1.1,124,USDA,Global,true,false
+40,Egg White (Boiled),Eggs,52,11.0,0.7,0.2,0.0,0.6,166,USDA,Global,true,false
+41,Oats (Rolled Dry),Breakfast,389,17.0,66.0,7.0,10.6,1.1,6,USDA,Global,true,true
+42,Banana,Fruits,89,1.1,23.0,0.3,2.6,12.2,1,USDA,Global,true,true
+43,Apple,Fruits,52,0.3,14.0,0.2,2.4,10.4,1,USDA,Global,true,true
+44,Milk (Full Fat),Dairy,61,3.2,4.8,3.3,0.0,5.1,44,USDA,Global,true,false
+45,Greek Yogurt (Plain),Dairy,97,9.0,3.6,5.0,0.0,3.2,36,USDA,Global,true,false
+46,Curd / Dahi (Full Fat),Dairy,62,3.5,4.7,3.4,0.0,4.7,36,IFCT,Pan-India,true,false
+47,Almonds (Raw),Nuts & Seeds,579,21.2,21.7,49.9,12.5,4.4,1,USDA,Global,true,true
+48,Peanuts (Roasted Unsalted),Nuts & Seeds,567,25.8,16.1,49.2,8.5,4.0,6,USDA,Global,true,true
+49,Whey Protein Powder (Generic),Supplements,400,80.0,6.0,8.0,0.0,4.0,320,USDA,Global,true,false
+50,Tofu (Firm),Plant Protein,76,8.1,1.9,4.8,0.3,0.5,7,USDA,Global,true,true
