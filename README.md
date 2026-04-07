@@ -149,20 +149,3 @@ Gemini AI (nutrition_engine.py)
   → Never invents calorie numbers
 ```
 
-This is the "Hallucination Guard" — the key innovation of Sattva AI.
-
----
-
-## AIES Mini Project — Review Notes
-
-**Gap 1 — Hallucination Problem:** Solved by Priority-Inference Engine (IFCT → USDA → 404)
-
-**Gap 2 — Cultural Specificity:** IFCT dataset covers Indian staples (Roti, Dal, Biryani, Idli etc.) with region-accurate macros
-
-**Gap 3 — Data Collision:** IFCT takes priority over USDA for Indian foods; USDA used for global ingredients
-
-**Gap 4 — Accessibility:** Guest mode provides instant value without login; Supabase Auth for persistent tracking
-
----
-
-Built for AIES Mini Project · Symbiosis Institute · 2025
