@@ -20,7 +20,7 @@ import database as db
 
 app = FastAPI(title="Sattva AI", version="2.0.0")
 app.add_middleware(CORSMiddleware,
-    allow_origins=os.getenv("ALLOWED_ORIGINS","http://localhost:5500,http://127.0.0.1:5500").split(","),
+    allow_origins=os.getenv("ALLOWED_ORIGINS","http://localhost:5500,http://127.0.0.1:5500,https://sattva-ai-an-nutrition-assistant.vercel.app/").split(","),
     allow_credentials=True, allow_methods=["*"], allow_headers=["*"])
 
 class BMIRequest(BaseModel):
