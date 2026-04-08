@@ -958,7 +958,7 @@ async function quickChat(message) {
 
   // 3. Performance Mode: Call your FastAPI Backend
   try {
-    const response = await fetch("https://sattva-ai.onrender.com/chat", {
+    const response = await fetch("https://sattva-ai.onrender.com/ai/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: message })
