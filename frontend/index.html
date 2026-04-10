@@ -856,7 +856,7 @@ async function sendChat(){
     meals_logged:S.meals.map(m=>`${m.name}(${m.qty}g,${m.kcal}kcal)`),
   };
   try{
-    const res=await fetch(`${API}ai/chat`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:S.chatHistory,model_provider:'gemini',user_context:ctx})});
+    const res=await fetch(`${API}/ai/chat`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:S.chatHistory,model_provider:'gemini',user_context:ctx})});
     removeTyping(thinkId);
     if(!res.ok)throw new Error();
     const data=await res.json();
