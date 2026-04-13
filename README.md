@@ -1,6 +1,6 @@
 # 🌿 Sattva AI — AI Nutrition Assistant
 
-> Hybrid deterministic accuracy (IFCT & USDA data) + Gemini 1.5 Flash generative coaching — built for Indian dietary patterns.
+> Hybrid deterministic accuracy (IFCT & USDA data) + Gemini 2.5 Flash generative coaching — built for Indian dietary patterns.
 
 ---
 
@@ -83,7 +83,7 @@ Open `frontend/index.html` in your browser — or use **Live Server** in VS Code
 
 | Service | Cost |
 |---------|------|
-| **Gemini 1.5 Flash** | ✅ FREE (15 req/min, 1M tokens/day) |
+| **Gemini 2.5 Flash** | ✅ FREE (15 req/min, 1M tokens/day) |
 | **Supabase** | ✅ FREE (500MB DB, 50,000 users) |
 | **Total** | **₹0** |
 
